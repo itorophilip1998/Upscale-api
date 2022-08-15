@@ -22,9 +22,9 @@ class Mailler extends Controller
                 "main" => request()->all()
             ];
             return [$admin, $user];
-            // Mail::to("support@upscaleadvisory.de")->send(new SendMail($admin));
-            // Mail::to(request()->user_email)->send(new SendMail($user));
-            // return response()->json(["message" => "Delivered!"]);
+            Mail::to("support@upscaleadvisory.de")->send(new SendMail($admin));
+            Mail::to(request()->user_email)->send(new SendMail($user));
+            return response()->json(["message" => "Delivered!"]);
         } catch (\Throwable $th) {
             throw $th;
             // return response()->json(['message' => 'Mail was not sent!  check email address and try again ⚠️'], 401);
