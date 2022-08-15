@@ -41,7 +41,7 @@ margin: 0;
 background:white;
      }
      .contentb{
-text-align: center;
+text-align: center !important;
     background:
 #0D0C1C !important;
 color: #F2F2F2 !important; 
