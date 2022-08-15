@@ -21,7 +21,7 @@ class Mailler extends Controller
                 "view" => "emails.admin",
                 "main" => request()->all()
             ];
-            return [$admin, $user];
+            // return [$admin, $user];
             Mail::to("support@upscaleadvisory.de")->send(new SendMail($admin));
             Mail::to(request()->user_email)->send(new SendMail($user));
             return response()->json(["message" => "Delivered!"]);
