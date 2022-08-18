@@ -189,6 +189,9 @@ border-radius: 6px;
 .text-left{
 text-align: left !important;
 }
+p{
+    font-size: 16px !important;
+}
  </style>
 </head>
 <body>
