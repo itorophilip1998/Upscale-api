@@ -14,7 +14,7 @@ We  shall get in touch with you as soon as possible
 <br/>
 <br/>
 <p >
-Best regards,
+Best regards,<br/>
 Your Upscale Team.
 </p>
         </section>

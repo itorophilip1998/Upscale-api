@@ -187,7 +187,7 @@ padding: 10px 20px;
 border-radius: 6px;
 }
 .text-left{
-text-align: center !important;
+text-align: left !important;
 }
  </style>
 </head>
