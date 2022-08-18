@@ -206,7 +206,7 @@ text-align: left !important;
     
 
          
-        <footer>
+        {{-- <footer>
          <div class="first-col">
 
            <ul>
@@ -221,7 +221,7 @@ text-align: left !important;
         <li><a href="#"><img src="https://i.ibb.co/1Zm0Ybb/ball.png" alt=""></a></li>
             <li><a href="#"><img src="https://i.ibb.co/4mTzwqx/be.png" alt=""></a></li></ul>
          </div>
-        </footer>
+        </footer> --}}
  
     </div>
 </body>
