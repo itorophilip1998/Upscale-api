@@ -3,13 +3,20 @@
 @section('content')
   
 
-        <section class="contentb text-center">
+        <section class="contentb text-left">
 
-    <h2 class="m-0">Your Email was Received</h2>
-    <p>Hey, we’ve received your email and we’re working on getting back to you as soon as possible</p>
+    <h2 class="m-0">Dear {{ $data["main"]["user_name"] }},</h2>
+    <p>Thank you for contacting the Upscale Advisory team.
+We  shall get in touch with you as soon as possible
+</p>
     
-
-    <button class="btn">Contact Us</button>
+<br/>
+<br/>
+<br/>
+<p >
+Best regards,
+Your Upscale Team.
+</p>
         </section>
      
  

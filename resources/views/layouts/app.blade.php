@@ -186,6 +186,9 @@ padding: 10px 20px;
 /* width:  */
 border-radius: 6px;
 }
+.text-left{
+text-align: center !important;
+}
  </style>
 </head>
 <body>
