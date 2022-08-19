@@ -197,7 +197,7 @@ p{
 <body>
     <div id="app"> 
 <header>
-<a href="#"><img src="https://i.ibb.co/vQgw1cd/upscale.png" alt="upscale" border="0"></a>
+<a href="#"><img src="https://i.ibb.co/60V9CtP/maillogo.png" alt="upscale" border="0"></a>
 
     <h3 >Upscale Advisory</h3>
 
